@@ -102,3 +102,5 @@ ENV/
 
 #other
 .idea/
+nohup.out
+models/

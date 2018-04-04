@@ -1,0 +1,124 @@
+slots:
+  email:
+    type: text
+
+intents:
+  - EmailId
+  - Main Menu
+  - Helpful
+  - Not Helpful
+  - Greeting
+  - Bye
+  - Manage Account
+  - Account Cancellation
+  - Username and Password
+  - Upgrade Account
+  - Reactivate Account
+  - Review Plan Details
+  - Update Contact Information
+  - Recurring Wi-Fi Subscriptions
+  - Itunes Subscriptions
+  - AsYouGo Plans
+  - Broadband Wi-Fi Subscriptions
+  - Technical Support
+  - Billing Inquiry
+  - Cannot Connect to Wifi
+  - I'm Connected But Cannot Reach Internet
+  - Device Limit Reached
+  - Frequent Disconnects
+  - Request Receipts
+  - Update Billing Information
+  - Refund Inquiry
+  - Credits
+  - Broadband Internet
+
+entities:
+  - email
+
+actions:
+ - utter_EmailId
+ - utter_Main_Menu
+ - utter_Not_Helpful
+ - utter_Helpful
+ - utter_Greeting
+ - utter_Bye
+ - utter_Manage_Account
+ - utter_Account_Cancellation
+ - utter_Username_and_Password
+ - utter_Upgrade_Account
+ - utter_Reactivate_Account
+ - utter_Review_Plan_Details
+ - utter_Update_Contact_Information
+ - utter_Recurring_Wi-Fi_Subscriptions
+ - utter_Itunes_Subscriptions
+ - utter_AsYouGo_Plans
+ - utter-Broadband_Wi-Fi_Subscriptions
+ - utter_Technical Support
+ - utter_Billing_Inquiry
+ - utter_Cannot_Connect_to_Wifi
+ - utter_I'm_Connected_But_Cannot_Reach_Internet
+ - utter_Device_Limit_Reached
+ - utter_Frequent_Disconnects
+ - utter_Credits
+ - utter_Request_Receipts
+ - utter_Update_Billing_Information
+ - utter_Refund_Inquiry
+ - utter_Broadband_Internet
+
+templates:
+  utter_EmailId:
+  - text: "Here is your ticket"
+  utter_Main_Menu:
+  - text: "main menu"
+  utter_Helpful:
+  - text: "Helpful"
+  utter_Not_Helpful:
+  - text: "Not Helpful"
+  utter_Greeting:
+  - text: "Hello there"
+  utter_Bye:
+  - text: "Bye"
+  utter_Manage_Account:
+  - text: "I acn help you with that"
+  utter_Account_Cancellation:
+  - text: "I can help you with that"
+  utter_Username_and_Password:
+  - text: "I can help you with that"
+  utter_Upgrade_Account:
+  - text: "I can help you with that"
+  utter_Reactivate_Account:
+  - text: "I can help you with that"
+  utter_Review_Plan_Details:
+  - text: "I can help you with that"
+  utter_Update_Contact_Information:
+  - text: "I can help you with that"
+  utter_Recurring_Wi-Fi_Subscriptions:
+  - text: "I can help you with that"
+  utter_Itunes_Subscriptions:
+  - text: "I can help you with that"
+  utter_AsYouGo_Plans:
+  - text: "I can help you with that"
+  utter-Broadband_Wi-Fi_Subscriptions:
+  - text: "I can help you with that"
+  utter_Technical Support:
+  - text: "I can help you with that"
+  utter_Billing_Inquiry:
+  - text: "I can help you with that"
+  utter_Cannot_Connect_to_Wifi:
+  - text: "I can help you with that"
+  utter_I'm_Connected_But_Cannot_Reach_Internet:
+  - text: "I can help you with that"
+  utter_Device_Limit_Reached:
+  - text: "I can help you with that"
+  utter_Frequent_Disconnects:
+  - text: "I can help you with that"
+  utter_Credits:
+  - text: "I can help you with that"
+  utter_Request_Receipts:
+  - text: "I can help you with that"
+  utter_Update_Billing_Information:
+  - text: "I can help you with that"
+  utter_Refund_Inquiry:
+  - text: "I can help you with that"
+  utter_Broadband_Internet:
+  - text: "I can help you with that"
